@@ -1,4 +1,8 @@
- jQuery(window).load(function () {
+// ========================================================================= //
+//  //Loading Screen
+// ========================================================================= //
+ 
+jQuery(window).load(function () {
       $(".loader").delay(3600).fadeOut("slow"); //retire o delay quando for copiar!
     $("#tudo_page").toggle("fast");
 });
@@ -15,7 +19,7 @@ $(document).ready(function() {
 
   $(document).on("scroll", onScroll);
 
-  $('a[href^="#"]').on('click', function(e) {
+  $('a[href^=""]').on('click', function(e) {
     e.preventDefault();
     $(document).off("scroll");
 
